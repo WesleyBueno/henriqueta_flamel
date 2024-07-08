@@ -328,6 +328,23 @@ footer ul li a {
     text-decoration: underline;
 }
 
+.copyright{
+    background: url(img/background.png);
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #56070C;
+	border-radius: 6px;
+}
+
 
 
 
@@ -341,7 +358,7 @@ footer ul li a {
 
     .menu {
         position: fixed;
-        top: 70px;
+        top: 15vw;
         left: -100%;
         display: block;
         padding: 100px 50px;
@@ -514,6 +531,10 @@ footer ul li a {
 
     .instagram p,
     .site p {
+        font-size: 0.7em;
+    }
+
+    .copyright{
         font-size: 0.7em;
     }
 }
