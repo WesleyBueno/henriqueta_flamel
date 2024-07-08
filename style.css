@@ -1,0 +1,546 @@
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lxgw-wenkai-mono-tc-regular {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spectral-medium {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.wittgenstein {
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    background: url(img/background.png);
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(img/henriqueta_fundo_opc.png);
+    background-size: cover;
+    transition: 0.5s;
+    border-bottom: 10px solid #56070C;
+}
+
+header.sticky {
+    background: url(/img/background.png);
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+
+.logo {
+    min-width: 50%;
+}
+
+header .logo img {
+    max-width: 70%;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    color: #56070C;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.rasgado_vermelho_bottom,
+.rasgado_branco_bottom {
+    position: relative;
+    top: -5px;
+}
+
+.rasgado_vermelho_top,
+.rasgado_branco_top {
+    position: relative;
+    top: -120px;
+}
+
+
+.rasgado_vermelho_bottom img,
+.rasgado_vermelho_top img,
+.rasgado_branco_bottom img,
+.rasgado_branco_top img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gremio {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+.contentBx_gremio h2 {
+    color: #56070C;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.contentBx_gremio h3 {
+    color: #56070C;
+    font-size: 2em;
+
+    font-style: italic;
+    text-shadow: 1px 2px 1px rgb(156, 154, 154)
+}
+
+.contentBx_gremio p,
+#descritivo {
+    color: #000000;
+    font-size: 1.5em;
+
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.quadro {
+    min-width: 50%;
+}
+
+.quadro img {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.acoes {
+    background-color: #56070C;
+}
+
+.icon_acoes img {
+    padding: 50px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.contentBx_acoes {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.contentBx_acoes h2 {
+    font-weight: 700;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.contentBx_acoes p {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.icon_radio img {
+    width: 80%;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.contentBx_radio p {
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.gazeta {
+    background-color: #ffffff;
+}
+
+.contentBx_gazeta p {
+    color: #000000;
+    font-size: 1.5em;
+
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.icon_gazeta img {
+    width: 90%;
+}
+
+.icon_edicao img {
+    width: 60%;
+}
+
+.contentBx_edicao p {
+    color: #000000;
+    font-size: 1.5em;
+
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.contentBx_cartilha h2 {
+    color: #56070C;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.contentBx_cartilha p {
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.icon_cartilha img {
+    margin: 30px;
+    width: 50%;
+}
+
+.protestos {
+    background-color: #56070C;
+}
+
+.icon_protestos img {
+    width: 100%;
+}
+
+.contentBx_protestos h2 {
+    color: #ffffff;
+    font-size: 4em;
+    padding-top: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.contentBx_protestos p {
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.contentBx_protestos h1 {
+    color: #ffffff;
+    padding-top: 50px;
+    font-size: 3.5em;
+    font-family: "Caveat", cursive;
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.text h2 {
+    color: black;
+    font-size: em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.membros{
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.icon_membros img {
+    align-self: center;
+    margin: 0px 0px 10px 100px;
+    width: 80%;
+}
+
+footer {
+    background-color: #56070C;
+}
+
+footer ul li {
+    position: relative;
+    list-style: none;
+}
+
+footer ul li a {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+.instagram h2,
+.site h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.instagram p,
+.site p {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 1100px) {
+
+    header,
+    header.sticky {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    .menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: url(img/background.png);
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    header ul li a {
+        color: #111;
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background: url(/img/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+
+    .toggle.active {
+        background: url(/img/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+
+    header.sticky .toggle {
+        filter: invert(1);
+    }
+
+    .line,
+    .rasgado_vermelho_bottom,
+    .rasgado_branco_bottom {
+        position: relative;
+        top: -1px;
+        width: 100%;
+    }
+
+    .rasgado_vermelho_top,
+    .rasgado_branco_top {
+        position: relative;
+        top: -40px;
+    }
+
+    .line img,
+    .rasgado_vermelho_bottom img,
+    .rasgado_vermelho_top img,
+    .rasgado_branco_bottom img,
+    .rasgado_branco_top img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: -1;
+    }
+
+    .container {
+        padding: 0px 0px 100px 100px;
+
+    }
+
+    .contentBx_gremio h2,
+    .contentBx_acoes h2,
+    .contentBx_cartilha h2,
+    .contentBx_edicao h2,
+    .contentBx_gazeta h2,
+    .contentBx_protestos h2,
+    .contentBx_radio h2 {
+        font-size: 3em;
+    }
+
+    .contentBx_gremio h3 {
+        font-size: 2em;
+    }
+
+    .contentBx_gremio p,
+    .contentBx_acoes p,
+    .contentBx_cartilha p,
+    .contentBx_edicao p,
+    .contentBx_gazeta p,
+    .contentBx_protestos p,
+    .contentBx_radio p {
+        font-size: 1.5em;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contentBx_gremio h2 {
+        text-align: center;
+    }
+
+    .contentBx_gremio h3 {
+        text-align: center;
+    }
+
+    .contentBx_gremio p {
+        text-align: start;
+    }
+
+    .contentBx_gremio span {
+        text-align: start;
+    }
+
+    .contentBx_acoes{
+        margin-top: 50px;
+        padding: 50px 0px 0px 0px;
+    }
+
+
+    .icon_acoes img {
+        width: 80%;
+        padding: 20px;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .icon_radio img {
+        padding: 0px;
+        width: 70%;
+        margin: 20px 0px 0px 50px;
+        
+    }
+    .contentBx_radio p {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .contentBx_radio img {
+        width: 100%;
+    }
+
+    .contentBx_protestos h2 {
+        padding-top: 10px;
+    }
+
+    .membros {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .icon_membros img {
+        margin: 0px 0px 10px 40px;
+        width: 80%;
+    }
+
+    .text h2 {
+        font-size: 2em;
+
+    }
+
+    .instagram h2,
+    .site h2 {
+        font-size: 1.5em;
+    }
+
+    .instagram p,
+    .site p {
+        font-size: 0.7em;
+    }
+
+
+}
