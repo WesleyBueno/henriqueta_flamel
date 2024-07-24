@@ -504,6 +504,14 @@ footer ul li a {
         margin: 20px 0px 0px 20px;
     }
 
+    .icon_gazeta img{
+        margin-left: 10px;
+    }
+
+    .icon_edicao img{
+        margin-left: 60px;
+    }
+
 
     .icon_radio img {
         padding: 0px;
@@ -517,7 +525,12 @@ footer ul li a {
     }
 
     .cartilha{
-        padding: 50px;
+        padding: 0px;
+        
+    }
+
+    .icon_cartilha img{
+        margin-left: 100px;
     }
 
     .contentBx_radio img {
