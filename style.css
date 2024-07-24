@@ -220,8 +220,18 @@ header ul li a {
 .contentBx_edicao p {
     color: #000000;
     font-size: 1.5em;
-
     text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+.contentBx_edicao span {
+    color: #56070C;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cartilha{
+    padding: 100px;
 }
 
 .contentBx_cartilha h2 {
@@ -329,11 +339,14 @@ footer ul li a {
 }
 
 .copyright{
-    background: url(img/background.png);
+    background: #56070C;
     background-size: cover;
     color: #000000;
     text-align: center;
     padding: 10px;
+}
+.copyright p{
+    color: #ffffff;
 }
 
 ::-webkit-scrollbar{
@@ -491,6 +504,7 @@ footer ul li a {
         margin: 20px 0px 0px 20px;
     }
 
+
     .icon_radio img {
         padding: 0px;
         width: 70%;
@@ -500,6 +514,10 @@ footer ul li a {
     .contentBx_radio p {
         margin-top: 0px;
         padding: 0px;
+    }
+
+    .cartilha{
+        padding: 50px;
     }
 
     .contentBx_radio img {
@@ -526,7 +544,7 @@ footer ul li a {
 
     .instagram h2,
     .site h2 {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
 
     .instagram p,
@@ -536,5 +554,10 @@ footer ul li a {
 
     .copyright{
         font-size: 0.7em;
+    }
+
+    #contato.container{
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
     }
 }
