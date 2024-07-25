@@ -285,6 +285,62 @@ header ul li a {
     text-shadow: 1px 2px 5px rgb(0, 0, 0);
 }
 
+.mesa_redonda{
+    padding-top: 50px;
+}
+
+.contentBx_redonda h2 {
+    color: #56070C;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.contentBx_redonda p {
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.contentBx_redonda h3,
+.contentBx_leilao h3
+{
+    color: #56070C;
+    font-size: 2.0em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.icon_redonda img {
+    width: 80%;
+}
+
+.leilao{
+    background-color: #ffffff;
+}
+
+.contentBx_leilao h2{
+    color: #56070C;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.contentBx_leilao p {
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 5px rgb(156, 154, 154);
+}
+
+.icon_leilao img {
+    width: 60%;
+    
+}
+
 .text h2 {
     color: black;
     font-size: em;
@@ -357,9 +413,6 @@ footer ul li a {
 	background: #56070C;
 	border-radius: 6px;
 }
-
-
-
 
 @media (max-width: 1100px) {
 
@@ -452,7 +505,9 @@ footer ul li a {
     .contentBx_edicao h2,
     .contentBx_gazeta h2,
     .contentBx_protestos h2,
-    .contentBx_radio h2 {
+    .contentBx_radio h2,
+    .contentBx_redonda h2{
+        
         font-size: 3em;
     }
 
@@ -466,7 +521,8 @@ footer ul li a {
     .contentBx_edicao p,
     .contentBx_gazeta p,
     .contentBx_protestos p,
-    .contentBx_radio p {
+    .contentBx_radio p ,
+    .contentBx_redonda p{
         font-size: 1.5em;
     }
 
@@ -512,7 +568,6 @@ footer ul li a {
         margin-left: 60px;
     }
 
-
     .icon_radio img {
         padding: 0px;
         width: 70%;
@@ -526,7 +581,10 @@ footer ul li a {
 
     .cartilha{
         padding: 0px;
-        
+    }
+
+    .contentBx_cartilha{
+        padding-top: 100px;
     }
 
     .icon_cartilha img{
@@ -541,6 +599,12 @@ footer ul li a {
         padding-top: 10px;
     }
 
+    .icon_redonda img {
+        width: 80%;
+        margin: 0px;
+        padding-top: 30px;
+    }
+
     .membros {
         padding: 100px 0px 0px 0px;
     }
@@ -549,6 +613,11 @@ footer ul li a {
         margin: 0px 0px 10px 40px;
         width: 80%;
     }
+
+    .icon_leilao img{
+        margin-left: 60px;
+    }
+
 
     .text h2 {
         font-size: 2em;
