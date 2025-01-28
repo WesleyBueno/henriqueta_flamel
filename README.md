@@ -4,6 +4,11 @@
 
 > Projeto de site institucional desenvolvido para um evento literário imersivo.
 
+### Projeto
+Site institucional construido com o objetivo de disseminar informações aos participantes do evento.
+A construção do site utiliza tecnologias de HTML, CSS e Javascript. Sendo responsivo a dispositivos móveis, desktops e notebooks.
+
+
 ### Features
 
 O projeto está finalizado e entregue com as seguintes funcionalidades:
@@ -12,6 +17,8 @@ O projeto está finalizado e entregue com as seguintes funcionalidades:
 - [x] Divulgação das ações realizadas no evento
 - [x] Responsividade para dispositivos móveis, desktops e notebooks
 
+### Demonstração
+<a href="#gremio">Demo aqui</a>
 
 ## 🤝 Colaboradores
 
