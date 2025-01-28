@@ -18,7 +18,7 @@ O projeto está finalizado e entregue com as seguintes funcionalidades:
 - [x] Responsividade para dispositivos móveis, desktops e notebooks
 
 ### Demonstração
-<a href="#gremio">Demo aqui</a>
+<a href="https://wesleybueno.github.io/henriqueta_flamel/">Acesse a demonstração aqui</a>
 
 ## 🤝 Colaboradores
 
